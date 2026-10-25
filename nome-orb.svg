@@ -1,4 +1,133 @@
-*,
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 200 200" width="200" height="200"
+     role="img" aria-label="Nome AI morphing orb">
+
+  <defs>
+    <!-- Ядро: радиальный градиент -->
+    <radialGradient id="coreGrad" cx="50%" cy="42%" r="62%">
+      <stop offset="0%"   stop-color="#a5f3fc"/>
+      <stop offset="30%"  stop-color="#22d3ee"/>
+      <stop offset="55%"  stop-color="#0ea5e9"/>
+      <stop offset="80%"  stop-color="#0369a1"/>
+      <stop offset="100%" stop-color="#075985"/>
+    </radialGradient>
+
+    <!-- Блик -->
+    <radialGradient id="highlightGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"   stop-color="#ffffff" stop-opacity="0.75"/>
+      <stop offset="60%"  stop-color="#ffffff" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Внешнее свечение -->
+    <radialGradient id="glowGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="55%"  stop-color="#0ea5e9" stop-opacity="0"/>
+      <stop offset="80%"  stop-color="#0ea5e9" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Размытие для свечения -->
+    <filter id="softGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+
+    <!-- ЖИДКАЯ ЭРОЗИЯ — то, что делает края «живыми» -->
+    <filter id="liquid-erosion" x="-40%" y="-40%" width="180%" height="180%">
+      <feTurbulence type="fractalNoise"
+                    baseFrequency="0.015 0.02"
+                    numOctaves="2"
+                    seed="7"
+                    result="noise">
+        <animate attributeName="baseFrequency"
+                 dur="9s"
+                 values="0.015 0.02; 0.032 0.012; 0.018 0.028; 0.015 0.02"
+                 repeatCount="indefinite"/>
+      </feTurbulence>
+
+      <feDisplacementMap in="SourceGraphic"
+                         in2="noise"
+                         scale="16"
+                         xChannelSelector="R"
+                         yChannelSelector="G">
+        <animate attributeName="scale"
+                 dur="6s"
+                 values="16; 24; 18; 16"
+                 repeatCount="indefinite"/>
+      </feDisplacementMap>
+    </filter>
+  </defs>
+
+  <!-- Внешнее пульсирующее свечение -->
+  <circle cx="100" cy="100" r="88"
+          fill="url(#glowGrad)"
+          filter="url(#softGlow)">
+    <animate attributeName="r"
+             dur="3.2s"
+             values="84; 92; 84"
+             repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Морфящийся шар -->
+  <g filter="url(#liquid-erosion)">
+
+    <!-- Тело шара (меняет форму) -->
+    <path fill="url(#coreGrad)">
+      <animate attributeName="d"
+               dur="6s"
+               repeatCount="indefinite"
+               calcMode="spline"
+               keyTimes="0; 0.25; 0.5; 0.75; 1"
+               keySplines="0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1; 0.4 0 0.6 1"
+               values="
+                 M 100 20
+                 C 145 20, 180 55, 180 100
+                 C 180 145, 145 180, 100 180
+                 C 55 180, 20 145, 20 100
+                 C 20 55, 55 20, 100 20 Z;
+
+                 M 106 24
+                 C 150 22, 176 58, 174 104
+                 C 172 152, 138 178, 96 176
+                 C 54 174, 24 142, 26 96
+                 C 28 52, 62 26, 106 24 Z;
+
+                 M 94 22
+                 C 142 26, 178 52, 176 102
+                 C 174 150, 138 174, 98 178
+                 C 56 180, 22 148, 22 100
+                 C 22 54, 52 18, 94 22 Z;
+
+                 M 103 20
+                 C 148 24, 178 56, 178 102
+                 C 178 148, 142 176, 100 178
+                 C 58 180, 22 146, 22 100
+                 C 22 54, 56 18, 103 20 Z;
+
+                 M 100 20
+                 C 145 20, 180 55, 180 100
+                 C 180 145, 145 180, 100 180
+                 C 55 180, 20 145, 20 100
+                 C 20 55, 55 20, 100 20 Z
+               "/>
+    </path>
+
+    <!-- Блик (движется вместе с формой) -->
+    <ellipse cx="76" cy="72" rx="24" ry="16"
+             fill="url(#highlightGrad)"
+             opacity="0.55">
+      <animate attributeName="cx"
+               dur="6s"
+               values="76; 82; 72; 78; 76"
+               repeatCount="indefinite"/>
+      <animate attributeName="cy"
+               dur="6s"
+               values="72; 68; 78; 70; 72"
+               repeatCount="indefinite"/>
+    </ellipse>
+
+  </g>
+</svg>*,
 *::before,
 *::after {
   box-sizing: border-box;
