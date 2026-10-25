@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./nome-ai.svg" width="100%" alt="Nome Banner" />
+  <img src="https://raw.githubusercontent.com/nomochka/nomochka/main/nome-ai.svg" width="100%" alt="Nome Banner" />
 </p>
 
 <p align="center">
@@ -17,66 +17,26 @@
 
 ---
 
-### `// SYSTEM_SPEC`
+### `$ whoami`
 
-```yaml
-handle: nomochka
-name: nome
-role: Machine Learning Engineer // AI Researcher // Backend Developer
-focus:
-  ml_research:
-    - Deep Learning & NLP (PyTorch, Transformers, Custom Architectures)
-    - Tabular & Classical ML (LightGBM, Gradient Boosting, Feature Engineering)
-    - Out-of-Fold Cross-Validation, Metric Optimization, Ensembling
-  backend_engineering:
-    - High-Load Services & API Design (Python / FastAPI, Java / Spring Boot)
-    - Distributed Data Stores & Caching (PostgreSQL, Redis)
-    - Self-Hosted Infrastructure, Reverse Proxies, Containerization
-```
+> **nome** — Machine Learning Engineer, AI Researcher &amp; Backend Developer. 
+> Занимаюсь разработкой высоконагруженных сервисов, глубинным обучением, обработкой текстов (NLP), построением надежных пайплайнов и самохостингом инфраструктуры.
 
 ---
 
-### `// ARSENAL`
+### `$ tech_stack --arsenal`
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=py,java,pytorch,spring,fastapi,sklearn,postgres,redis,docker,nginx,linux,git&theme=dark&perline=12" alt="Tech Stack" />
 </p>
 
-<table align="center" width="100%">
-  <thead>
-    <tr>
-      <th width="33%" align="left"><code>[ ML &amp; RESEARCH ]</code></th>
-      <th width="33%" align="left"><code>[ BACKEND &amp; CORE ]</code></th>
-      <th width="33%" align="left"><code>[ INFRASTRUCTURE ]</code></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td valign="top">
-        • <b>PyTorch</b> &amp; Hugging Face<br/>
-        • <b>LightGBM</b> &amp; Scikit-Learn<br/>
-        • <b>NLP</b>, Summarization &amp; Ranking<br/>
-        • <b>NumPy</b>, Pandas, AST Parsing
-      </td>
-      <td valign="top">
-        • <b>Python</b> (FastAPI, Asyncio)<br/>
-        • <b>Java</b> (Spring Boot, JVM)<br/>
-        • <b>PostgreSQL</b> &amp; Redis<br/>
-        • REST API &amp; Distributed Systems
-      </td>
-      <td valign="top">
-        • <b>Linux</b> &amp; Self-Hosted VPS<br/>
-        • <b>Docker</b> &amp; Compose<br/>
-        • <b>Nginx</b> Reverse Proxy &amp; SSL<br/>
-        • CI/CD &amp; GitHub Actions
-      </td>
-    </tr>
-  </tbody>
-</table>
+| **[ ML &amp; Research ]** | **[ Backend &amp; Core ]** | **[ Infrastructure &amp; Ops ]** |
+| :--- | :--- | :--- |
+| • PyTorch &amp; Hugging Face<br/>• LightGBM &amp; Scikit-Learn<br/>• NLP &amp; Summarization<br/>• NumPy, Pandas, AST | • Python (FastAPI, Asyncio)<br/>• Java (Spring Boot, JVM)<br/>• PostgreSQL &amp; Redis<br/>• Distributed Systems | • Linux &amp; Self-Hosted VPS<br/>• Docker &amp; Compose<br/>• Nginx Reverse Proxy<br/>• Git &amp; CI/CD Actions |
 
 ---
 
-### `// TELEMETRY`
+### `$ git status --telemetry`
 
 <p align="center">
   <img height="165" src="https://github-readme-stats.vercel.app/api?username=nomochka&show_icons=true&theme=dark&bg_color=04080f&title_color=38bdf8&icon_color=38bdf8&text_color=e2e8f0&border_color=1e293b&border_radius=14" alt="GitHub Stats" />&nbsp;&nbsp;
