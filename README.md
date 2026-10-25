@@ -1,28 +1,29 @@
 <p align="center">
-  <img src="./nome-orb.svg" width="100%" alt="Nome AI Banner" />
+  <img src="./nome-ai.svg" width="100%" alt="Nome Banner" />
 </p>
 
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=16&duration=2800&pause=1000&color=38BDF8&center=true&vCenter=true&width=760&lines=%3E+architecting+scalable+backends+in+Python+and+Java;%3E+training+deep+learning%2C+NLP%2C+and+tabular+models;%3E+optimizing+low-latency+inference+and+pipelines;%3E+building+Nome+AI+and+production+ML+systems" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=15&duration=2800&pause=1000&color=38BDF8&center=true&vCenter=true&width=760&lines=%3E+architecting+scalable+backends+in+Python+and+Java;%3E+training+deep+learning%2C+NLP%2C+and+tabular+models;%3E+optimizing+low-latency+inference+and+pipelines;%3E+building+production+ML+systems+and+pipelines" alt="Typing SVG" />
   </a>
 </p>
 
 <p align="center">
-  <a href="https://t.me/YOUR_TELEGRAM" target="_blank"><img src="https://img.shields.io/badge/TELEGRAM-0d1117?style=for-the-badge&logo=telegram&logoColor=38bdf8&labelColor=0d1117" alt="Telegram" /></a>&nbsp;
-  <a href="mailto:YOUR_EMAIL@example.com"><img src="https://img.shields.io/badge/EMAIL-0d1117?style=for-the-badge&logo=protonmail&logoColor=38bdf8&labelColor=0d1117" alt="Email" /></a>&nbsp;
-  <a href="https://github.com/YOUR_GITHUB_USERNAME"><img src="https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&label=VIEWS&color=0ea5e9&style=for-the-badge" alt="Profile Views" /></a>
+  <a href="https://t.me/nomeeee" target="_blank"><img src="https://img.shields.io/badge/TELEGRAM-04080f?style=for-the-badge&logo=telegram&logoColor=38bdf8&labelColor=04080f" alt="Telegram" /></a>&nbsp;
+  <a href="mailto:nomeepta@gmail.com"><img src="https://img.shields.io/badge/EMAIL-04080f?style=for-the-badge&logo=protonmail&logoColor=38bdf8&labelColor=04080f" alt="Email" /></a>&nbsp;
+  <a href="https://discord.com/users/nomeepta" target="_blank"><img src="https://img.shields.io/badge/DISCORD-04080f?style=for-the-badge&logo=discord&logoColor=38bdf8&labelColor=04080f" alt="Discord" /></a>&nbsp;
+  <a href="https://github.com/nomochka"><img src="https://komarev.com/ghpvc/?username=nomochka&label=VIEWS&color=0ea5e9&style=for-the-badge" alt="Profile Views" /></a>
 </p>
 
 ---
 
-### `// PROFILE_SPEC`
+### `// SYSTEM_SPEC`
 
 ```yaml
-handle: nome
-system: Nome AI
+handle: nomochka
+name: nome
 role: Machine Learning Engineer // AI Researcher // Backend Developer
-domains:
+focus:
   ml_research:
     - Deep Learning & NLP (PyTorch, Transformers, Custom Architectures)
     - Tabular & Classical ML (LightGBM, Gradient Boosting, Feature Engineering)
@@ -35,52 +36,53 @@ domains:
 
 ---
 
-### `// TECH_STACK`
-
-<h4 align="center"><code>[ MACHINE LEARNING &amp; RESEARCH ]</code></h4>
+### `// ARSENAL`
 
 <p align="center">
-  <img src="https://img.shields.io/badge/PyTorch-0d1117?style=for-the-badge&logo=pytorch&logoColor=38bdf8" alt="PyTorch" />&nbsp;
-  <img src="https://img.shields.io/badge/Hugging_Face-0d1117?style=for-the-badge&logo=huggingface&logoColor=38bdf8" alt="HuggingFace" />&nbsp;
-  <img src="https://img.shields.io/badge/LightGBM-0d1117?style=for-the-badge&logo=python&logoColor=38bdf8" alt="LightGBM" />&nbsp;
-  <img src="https://img.shields.io/badge/Scikit--Learn-0d1117?style=for-the-badge&logo=scikitlearn&logoColor=38bdf8" alt="Scikit-Learn" />&nbsp;
-  <img src="https://img.shields.io/badge/NumPy-0d1117?style=for-the-badge&logo=numpy&logoColor=38bdf8" alt="NumPy" />&nbsp;
-  <img src="https://img.shields.io/badge/Pandas-0d1117?style=for-the-badge&logo=pandas&logoColor=38bdf8" alt="Pandas" />
+  <img src="https://skillicons.dev/icons?i=py,java,pytorch,spring,fastapi,sklearn,postgres,redis,docker,nginx,linux,git&theme=dark&perline=12" alt="Tech Stack" />
 </p>
 
-<h4 align="center"><code>[ BACKEND &amp; CORE LANGUAGES ]</code></h4>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-0d1117?style=for-the-badge&logo=python&logoColor=38bdf8" alt="Python" />&nbsp;
-  <img src="https://img.shields.io/badge/Java-0d1117?style=for-the-badge&logo=openjdk&logoColor=38bdf8" alt="Java" />&nbsp;
-  <img src="https://img.shields.io/badge/Spring_Boot-0d1117?style=for-the-badge&logo=springboot&logoColor=38bdf8" alt="Spring" />&nbsp;
-  <img src="https://img.shields.io/badge/FastAPI-0d1117?style=for-the-badge&logo=fastapi&logoColor=38bdf8" alt="FastAPI" />&nbsp;
-  <img src="https://img.shields.io/badge/PostgreSQL-0d1117?style=for-the-badge&logo=postgresql&logoColor=38bdf8" alt="PostgreSQL" />&nbsp;
-  <img src="https://img.shields.io/badge/Redis-0d1117?style=for-the-badge&logo=redis&logoColor=38bdf8" alt="Redis" />
-</p>
-
-<h4 align="center"><code>[ INFRASTRUCTURE &amp; OPS ]</code></h4>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Linux-0d1117?style=for-the-badge&logo=linux&logoColor=38bdf8" alt="Linux" />&nbsp;
-  <img src="https://img.shields.io/badge/Docker-0d1117?style=for-the-badge&logo=docker&logoColor=38bdf8" alt="Docker" />&nbsp;
-  <img src="https://img.shields.io/badge/Nginx-0d1117?style=for-the-badge&logo=nginx&logoColor=38bdf8" alt="Nginx" />&nbsp;
-  <img src="https://img.shields.io/badge/Git-0d1117?style=for-the-badge&logo=git&logoColor=38bdf8" alt="Git" />
-</p>
+<table align="center" width="100%">
+  <thead>
+    <tr>
+      <th width="33%" align="left"><code>[ ML &amp; RESEARCH ]</code></th>
+      <th width="33%" align="left"><code>[ BACKEND &amp; CORE ]</code></th>
+      <th width="33%" align="left"><code>[ INFRASTRUCTURE ]</code></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td valign="top">
+        • <b>PyTorch</b> &amp; Hugging Face<br/>
+        • <b>LightGBM</b> &amp; Scikit-Learn<br/>
+        • <b>NLP</b>, Summarization &amp; Ranking<br/>
+        • <b>NumPy</b>, Pandas, AST Parsing
+      </td>
+      <td valign="top">
+        • <b>Python</b> (FastAPI, Asyncio)<br/>
+        • <b>Java</b> (Spring Boot, JVM)<br/>
+        • <b>PostgreSQL</b> &amp; Redis<br/>
+        • REST API &amp; Distributed Systems
+      </td>
+      <td valign="top">
+        • <b>Linux</b> &amp; Self-Hosted VPS<br/>
+        • <b>Docker</b> &amp; Compose<br/>
+        • <b>Nginx</b> Reverse Proxy &amp; SSL<br/>
+        • CI/CD &amp; GitHub Actions
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
-### `// TELEMETRY & METRICS`
+### `// TELEMETRY`
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=nomochka&show_icons=true&theme=dark&bg_color=0d1117&title_color=38bdf8&icon_color=38bdf8&text_color=c9d1d9&border_color=1e293b&hide_border=false" alt="GitHub Stats" />&nbsp;
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nomochka&layout=compact&theme=dark&bg_color=0d1117&title_color=38bdf8&text_color=c9d1d9&border_color=1e293b&hide_border=false&langs_count=6" alt="Top Languages" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=nomochka&show_icons=true&theme=dark&bg_color=04080f&title_color=38bdf8&icon_color=38bdf8&text_color=e2e8f0&border_color=1e293b&border_radius=14" alt="GitHub Stats" />&nbsp;&nbsp;
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nomochka&layout=compact&theme=dark&bg_color=04080f&title_color=38bdf8&text_color=e2e8f0&border_color=1e293b&border_radius=14&langs_count=6" alt="Top Languages" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=nomochka&bg_color=0d1117&color=38bdf8&line=0ea5e9&point=ffffff&area=true&hide_border=true" width="98%" alt="Activity Graph" />
-</p>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0ea5e9,50:0369a1,100:082f49&height=85&section=footer" width="100%" alt="Footer Banner" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=nomochka&bg_color=04080f&color=7dd3fc&line=38bdf8&point=a5f3fc&area=true&area_color=0ea5e9&hide_border=false&border_color=1e293b&radius=14" width="100%" alt="Activity Graph" />
 </p>
