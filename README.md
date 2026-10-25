@@ -73,12 +73,12 @@ domains:
 ### `// TELEMETRY & METRICS`
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=dark&bg_color=0d1117&title_color=38bdf8&icon_color=38bdf8&text_color=c9d1d9&border_color=1e293b&hide_border=false" alt="GitHub Stats" />&nbsp;
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=dark&bg_color=0d1117&title_color=38bdf8&text_color=c9d1d9&border_color=1e293b&hide_border=false&langs_count=6" alt="Top Languages" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=nomochka&show_icons=true&theme=dark&bg_color=0d1117&title_color=38bdf8&icon_color=38bdf8&text_color=c9d1d9&border_color=1e293b&hide_border=false" alt="GitHub Stats" />&nbsp;
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nomochka&layout=compact&theme=dark&bg_color=0d1117&title_color=38bdf8&text_color=c9d1d9&border_color=1e293b&hide_border=false&langs_count=6" alt="Top Languages" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_GITHUB_USERNAME&bg_color=0d1117&color=38bdf8&line=0ea5e9&point=ffffff&area=true&hide_border=true" width="98%" alt="Activity Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=nomochka&bg_color=0d1117&color=38bdf8&line=0ea5e9&point=ffffff&area=true&hide_border=true" width="98%" alt="Activity Graph" />
 </p>
 
 <p align="center">
