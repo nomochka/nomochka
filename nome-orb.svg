@@ -1,138 +1,203 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 280" width="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 370" width="100%">
   <defs>
-    <!-- Оригинальный фильтр жидкого разъедания краёв -->
-    <filter id="liquid-erosion" filterUnits="userSpaceOnUse" x="250" y="-10" width="300" height="230">
-      <feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="3" result="noise" seed="2" />
-      <feDisplacementMap in="SourceGraphic" in2="noise" scale="22" xChannelSelector="R" yChannelSelector="G" />
+    <!-- Жидкое разъедание краёв -->
+    <filter id="liquid-erosion" x="-35%" y="-35%" width="170%" height="170%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2.2" result="blurred" />
+      <feColorMatrix in="blurred" type="matrix" values="1.35 0    0    0 -0.12
+                0    1.35 0    0 -0.12
+                0    0    1.45 0 -0.10
+                0    0    0    1.6 -0.25" result="contrasted" />
+      <feTurbulence type="fractalNoise" baseFrequency="0.032" numOctaves="3" seed="2" result="noise">
+        <animate attributeName="baseFrequency" values="0.028;0.042;0.028" dur="5.5s" repeatCount="indefinite" />
+      </feTurbulence>
+      <feDisplacementMap in="contrasted" in2="noise" scale="24" xChannelSelector="R" yChannelSelector="G" result="displaced" />
+      <feDropShadow dx="0" dy="0" stdDeviation="14" flood-color="#0ea5e9" flood-opacity="0.65" />
     </filter>
 
-    <filter id="soft-blur" x="-40%" y="-40%" width="180%" height="180%">
-      <feGaussianBlur stdDeviation="8" />
+    <filter id="glow-heavy" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="28" />
     </filter>
 
-    <filter id="core-blur" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="2" />
+    <filter id="glow-line" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.5" result="b" />
+      <feMerge>
+        <feMergeNode in="b" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
     </filter>
 
-    <!-- Фоновое свечение сцены -->
-    <radialGradient id="bg-glow" cx="50%" cy="38%" r="55%">
-      <stop offset="0%" stop-color="#0ea5e9" stop-opacity="0.25" />
-      <stop offset="45%" stop-color="#0369a1" stop-opacity="0.08" />
-      <stop offset="100%" stop-color="#0d1117" stop-opacity="0" />
+    <!-- Сетка фона -->
+    <pattern id="cyber-grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M 36 0 L 0 0 0 36" fill="none" stroke="#38bdf8" stroke-width="0.6" stroke-opacity="0.12" />
+      <circle cx="36" cy="36" r="1" fill="#7dd3fc" fill-opacity="0.25" />
+    </pattern>
+
+    <radialGradient id="grid-fade" cx="50%" cy="40%" r="55%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="1" />
+      <stop offset="65%" stop-color="#ffffff" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0" />
     </radialGradient>
 
-    <!-- Градиент ядра шара (orb-mode-ocean) -->
-    <linearGradient id="ocean-core" x1="0%" y1="0%" x2="100%" y2="100%">
+    <mask id="grid-mask">
+      <rect width="920" height="370" fill="url(#grid-fade)" />
+    </mask>
+
+    <!-- Градиенты шара -->
+    <radialGradient id="orb-base" cx="40%" cy="35%" r="65%">
       <stop offset="0%" stop-color="#a5f3fc" />
-      <stop offset="28%" stop-color="#22d3ee" />
-      <stop offset="55%" stop-color="#0ea5e9" />
-      <stop offset="80%" stop-color="#0284c7" />
+      <stop offset="30%" stop-color="#22d3ee" />
+      <stop offset="62%" stop-color="#0284c7" />
       <stop offset="100%" stop-color="#075985" />
-    </linearGradient>
-
-    <!-- Вторичный градиент волн эрозии -->
-    <linearGradient id="ocean-wave" x1="100%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.9" />
-      <stop offset="50%" stop-color="#0369a1" stop-opacity="0.3" />
-      <stop offset="100%" stop-color="#67e8f9" stop-opacity="0.85" />
-    </linearGradient>
-
-    <!-- Внутренний блик -->
-    <radialGradient id="inner-Spec" cx="35%" cy="30%" r="60%">
-      <stop offset="0%" stop-color="#e0f2fe" stop-opacity="0.85" />
-      <stop offset="45%" stop-color="#38bdf8" stop-opacity="0.35" />
-      <stop offset="100%" stop-color="#0369a1" stop-opacity="0" />
     </radialGradient>
 
-    <!-- Градиент текста AI -->
-    <linearGradient id="ai-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#a5f3fc" />
-      <stop offset="55%" stop-color="#38bdf8" />
-      <stop offset="100%" stop-color="#0284c7" />
+    <linearGradient id="lobe-cyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e0f2fe" />
+      <stop offset="45%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#0369a1" stop-opacity="0" />
+    </linearGradient>
+
+    <linearGradient id="lobe-deep" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0ea5e9" />
+      <stop offset="55%" stop-color="#075985" />
+      <stop offset="100%" stop-color="#082f49" stop-opacity="0.2" />
+    </linearGradient>
+
+    <linearGradient id="lobe-bright" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.95" />
+      <stop offset="50%" stop-color="#a5f3fc" stop-opacity="0.85" />
+      <stop offset="100%" stop-color="#0284c7" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Liquid Glass карточки -->
+    <linearGradient id="glass-fill" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.08" />
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.02" />
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.06" />
+    </linearGradient>
+
+    <linearGradient id="glass-stroke" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.38" />
+      <stop offset="40%" stop-color="#ffffff" stop-opacity="0.07" />
+      <stop offset="75%" stop-color="#38bdf8" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.05" />
+    </linearGradient>
+
+    <linearGradient id="title-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#38bdf8" />
+    </linearGradient>
+
+    <linearGradient id="ecg-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0ea5e9" stop-opacity="0" />
+      <stop offset="25%" stop-color="#38bdf8" stop-opacity="0.8" />
+      <stop offset="50%" stop-color="#a5f3fc" stop-opacity="1" />
+      <stop offset="75%" stop-color="#38bdf8" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#0ea5e9" stop-opacity="0" />
     </linearGradient>
   </defs>
 
-  <style>
-    .title {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-      font-size: 36px;
-      font-weight: 800;
-      fill: #ffffff;
-      letter-spacing: -0.5px;
-    }
-    .subtitle {
-      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
-      font-size: 11.5px;
-      font-weight: 600;
-      fill: #7dd3fc;
-       fill-opacity: 0.78;
-      letter-spacing: 3.2px;
-    }
-    .orb-core {
-      transform-origin: 0px 0px;
-      animation: orbMorphSpin 4s linear infinite;
-    }
-    .orb-erosion-outer {
-      transform-origin: 0px 0px;
-      animation: orbSpinReverse 4.5s linear infinite;
-    }
-    .orb-erosion-wave {
-      transform-origin: 0px 0px;
-      animation: orbWave 2.6s ease-in-out infinite alternate;
-    }
-    .ambient-pulse {
-      transform-origin: 400px 102px;
-      animation: pulseGlow 3.5s ease-in-out infinite alternate;
-    }
-    @keyframes orbMorphSpin {
-      0%   { transform: rotate(0deg) scale(0.95, 1.04) skewX(0deg); }
-      33%  { transform: rotate(120deg) scale(1.06, 0.94) skewX(5deg); }
-      66%  { transform: rotate(240deg) scale(0.93, 1.05) skewY(-5deg); }
-      100% { transform: rotate(360deg) scale(0.95, 1.04) skewX(0deg); }
-    }
-    @keyframes orbSpinReverse {
-      0%   { transform: rotate(360deg) scale(1.08, 0.94); }
-      50%  { transform: rotate(180deg) scale(0.90, 1.10); }
-      100% { transform: rotate(0deg) scale(1.08, 0.94); }
-    }
-    @keyframes orbWave {
-      0%   { transform: rotate(-25deg) scale(0.92, 1.08); opacity: 0.7; }
-      100% { transform: rotate(35deg) scale(1.10, 0.92); opacity: 1; }
-    }
-    @keyframes pulseGlow {
-      0%   { transform: scale(0.94); opacity: 0.75; }
-      100% { transform: scale(1.08); opacity: 1; }
-    }
-  </style>
+  <!-- Фон -->
+  <rect width="920" height="370" rx="20" fill="#04080f" />
 
-  <!-- Подложка баннера -->
-  <rect width="800" height="280" rx="16" fill="#0d1117" />
-  <rect width="800" height="280" rx="16" fill="url(#bg-glow)" class="ambient-pulse" />
-  <rect x="0.75" y="0.75" width="798.5" height="278.5" rx="15.25" fill="none" stroke="#1e293b" stroke-width="1.5" />
+  <!-- Световые пятна -->
+  <circle cx="230" cy="110" r="160" fill="#1c56cd" fill-opacity="0.22" filter="url(#glow-heavy)">
+    <animate attributeName="cx" values="230;265;230" dur="12s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="690" cy="260" r="150" fill="#0ea5e9" fill-opacity="0.18" filter="url(#glow-heavy)">
+    <animate attributeName="cx" values="690;655;690" dur="14s" repeatCount="indefinite" />
+  </circle>
 
-  <!-- Мягкое внешнее свечение позади шара -->
-  <circle cx="400" cy="102" r="64" fill="#0ea5e9" fill-opacity="0.22" filter="url(#soft-blur)" class="ambient-pulse" />
+  <!-- Сетка -->
+  <rect width="920" height="370" rx="20" fill="url(#cyber-grid)" mask="url(#grid-mask)" />
 
-  <!-- Жидкий шар Nome AI строго по центру (400, 102) -->
-  <g filter="url(#liquid-erosion)">
-    <g transform="translate(400, 102)">
-      <!-- Внешний ореол эрозии -->
-      <ellipse class="orb-erosion-outer" cx="0" cy="0" rx="58" ry="48" fill="url(#ocean-wave)" filter="url(#soft-blur)" />
-      <ellipse class="orb-erosion-wave" cx="0" cy="0" rx="46" ry="56" fill="url(#ocean-wave)" filter="url(#core-blur)" />
+  <!-- Вордмарк -->
+  <text x="460" y="32" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" font-weight="700" fill="#7dd3fc" fill-opacity="0.45" letter-spacing="6">
+    NOME SERVICES // ARCHITECTURE
+  </text>
 
-      <!-- Основное жидкое ядро -->
-      <ellipse class="orb-core" cx="0" cy="0" rx="48" ry="44" fill="url(#ocean-core)" filter="url(#core-blur)" />
-
-      <!-- Внутренний каустический блик -->
-      <ellipse class="orb-erosion-outer" cx="-8" cy="-8" rx="36" ry="32" fill="url(#inner-Spec)" />
-    </g>
+  <!-- Боковые карточки (левая колонка) -->
+  <g transform="translate(36, 60)">
+    <rect width="236" height="66" rx="14" fill="url(#glass-fill)" stroke="url(#glass-stroke)" stroke-width="1" />
+    <rect x="14" y="17" width="3" height="32" rx="1.5" fill="#38bdf8" />
+    <text x="28" y="29" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="700" fill="#38bdf8" letter-spacing="1.6">
+      ML & DEEP LEARNING
+    </text>
+    <text x="28" y="47" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" font-weight="600" fill="#e2e8f0">
+      PyTorch · NLP · LightGBM
+    </text>
   </g>
 
-  <!-- Текст строго по центру (text-anchor="middle") -->
-  <text x="400" y="218" text-anchor="middle" class="title">
-    Nome <tspan fill="url(#ai-grad)" font-weight="400">AI</tspan>
+  <g transform="translate(36, 140)">
+    <rect width="236" height="66" rx="14" fill="url(#glass-fill)" stroke="url(#glass-stroke)" stroke-width="1" />
+    <rect x="14" y="17" width="3" height="32" rx="1.5" fill="#22d3ee" />
+    <text x="28" y="29" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="700" fill="#67e8f9" letter-spacing="1.6">
+      RESEARCH & METRICS
+    </text>
+    <text x="28" y="47" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" font-weight="600" fill="#e2e8f0">
+      OOF CV · Ensembling · F2
+    </text>
+  </g>
+
+  <!-- Боковые карточки (правая колонка) -->
+  <g transform="translate(648, 60)">
+    <rect width="236" height="66" rx="14" fill="url(#glass-fill)" stroke="url(#glass-stroke)" stroke-width="1" />
+    <rect x="14" y="17" width="3" height="32" rx="1.5" fill="#38bdf8" />
+    <text x="28" y="29" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="700" fill="#38bdf8" letter-spacing="1.6">
+      HIGH-LOAD BACKEND
+    </text>
+    <text x="28" y="47" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" font-weight="600" fill="#e2e8f0">
+      Python · Java · Spring Boot
+    </text>
+  </g>
+
+  <g transform="translate(648, 140)">
+    <rect width="236" height="66" rx="14" fill="url(#glass-fill)" stroke="url(#glass-stroke)" stroke-width="1" />
+    <rect x="14" y="17" width="3" height="32" rx="1.5" fill="#22d3ee" />
+    <text x="28" y="29" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="700" fill="#67e8f9" letter-spacing="1.6">
+      INFRASTRUCTURE
+    </text>
+    <text x="28" y="47" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" font-weight="600" fill="#e2e8f0">
+      FastAPI · PostgreSQL · Docker
+    </text>
+  </g>
+
+  <!-- Центральный жидкий шар (460, 126) -->
+  <g transform="translate(460, 126)" filter="url(#liquid-erosion)">
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="4.6s" repeatCount="indefinite" />
+      <path d="M 0,-56 C 34,-54 58,-30 54,4 C 50,38 26,60 -8,54 C -42,48 -60,22 -54,-10 C -48,-42 -34,-58 0,-56 Z" fill="url(#lobe-cyan)" opacity="0.85" />
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="3.4s" repeatCount="indefinite" />
+      <path d="M 0,-50 C 30,-52 52,-26 50,6 C 48,38 22,52 -10,48 C -42,44 -54,18 -48,-12 C -42,-42 -30,-48 0,-50 Z" fill="url(#orb-base)" />
+      <path d="M -10,-44 C 20,-50 48,-20 42,12 C 36,44 4,48 -22,38 C -48,28 -46,-8 -32,-30 C -22,-44 -10,-44 -10,-44 Z" fill="url(#lobe-deep)" />
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="2.7s" repeatCount="indefinite" />
+      <path d="M -5,-38 C 22,-40 40,-16 34,10 C 28,36 2,40 -20,30 C -42,20 -38,-10 -22,-28 C -12,-38 -5,-38 -5,-38 Z" fill="url(#lobe-bright)" />
+    </g>
+    <circle cx="-10" cy="-12" r="18" fill="#e0f2fe" fill-opacity="0.55">
+      <animate attributeName="r" values="15;21;15" dur="2.2s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+  <!-- ЭКГ линия -->
+  <g transform="translate(330, 210)" filter="url(#glow-line)">
+    <path d="M0 18 H85 L95 10 L105 26 L118 3 L130 33 L140 14 L148 18 H260" fill="none" stroke="#1e293b" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M0 18 H85 L95 10 L105 26 L118 3 L130 33 L140 14 L148 18 H260" fill="none" stroke="url(#ecg-grad)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="320" stroke-dashoffset="320">
+      <animate attributeName="stroke-dashoffset" values="320;0;-320" dur="3.4s" repeatCount="indefinite" />
+    </path>
+  </g>
+
+  <!-- Текст: только nome (другой чистый техно-шрифт, без AI) -->
+  <text x="460" y="286" text-anchor="middle" font-family="system-ui, -apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, sans-serif" font-size="46" font-weight="900" fill="url(#title-grad)" letter-spacing="1">
+    nome
   </text>
-  <text x="400" y="246" text-anchor="middle" class="subtitle">
-    ML ENGINEER // AI RESEARCHER // BACKEND DEVELOPER
+
+  <text x="460" y="318" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="600" fill="#7dd3fc" fill-opacity="0.8" letter-spacing="3.5">
+    ML ENGINEER  //  AI RESEARCHER  //  BACKEND DEVELOPER
   </text>
+
+  <!-- Внешняя рамка -->
+  <rect x="0.75" y="0.75" width="918.5" height="368.5" rx="19.25" fill="none" stroke="url(#glass-stroke)" stroke-width="1.5" />
 </svg>
