@@ -1,0 +1,96 @@
+{ box-sizing: border-box; margin: 0; padding: 0; }
+.stage {
+width: 800px;
+height: 290px;
+background:
+radial-gradient(ellipse at 50% 42%, rgba(14, 165, 233, 0.22) 0%, rgba(3, 105, 161, 0.08) 45%, transparent 72%),
+#0d1117;
+border: 1px solid rgba(56, 189, 248, 0.16);
+border-radius: 18px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+overflow: hidden;
+position: relative;
+}
+.orb-wrap {
+display: flex;
+justify-content: center;
+align-items: center;
+filter: url(#liquid-erosion);
+margin-bottom: 18px;
+}
+.nome-ai-orb {
+position: relative;
+display: inline-flex;
+align-items: center;
+justify-content: center;
+width: 108px;
+height: 108px;
+border-radius: 50%;
+isolation: isolate;
+--orb-shadow: rgba(14, 165, 233, 0.85);
+}
+.nome-ai-orb::before {
+content: "";
+position: absolute;
+inset: 2px;
+border-radius: 42% 58% 63% 37% / 45% 42% 58% 55%;
+background: conic-gradient(from 0deg, #0369a1, #0ea5e9, #a5f3fc, #0284c7, #22d3ee, #075985, #0369a1);
+filter: blur(1.8px) contrast(1.38);
+animation: orbMorphSpin 4s linear infinite;
+box-shadow:
+0 0 38px var(--orb-shadow),
+0 0 75px rgba(2, 132, 199, 0.4),
+inset 0 0 16px rgba(165, 243, 252, 0.65);
+}
+.nome-ai-orb::after {
+content: "";
+position: absolute;
+inset: -14px;
+border-radius: 58% 42% 38% 62% / 53% 60% 40% 47%;
+background: conic-gradient(from 180deg, transparent 0deg, rgba(14, 165, 233, 0.9) 70deg, transparent 140deg, rgba(34, 211, 238, 0.85) 230deg, transparent 310deg);
+filter: blur(8px);
+mix-blend-mode: screen;
+animation: orbErodeReverse 2.4s ease-in-out infinite alternate, orbSpinReverse 4.5s linear infinite;
+}
+.brand {
+font-size: 38px;
+font-weight: 800;
+letter-spacing: -0.02em;
+color: #ffffff;
+line-height: 1.1;
+}
+.brand span {
+background: linear-gradient(120deg, #a5f3fc, #38bdf8 55%, #0284c7);
+-webkit-background-clip: text;
+background-clip: text;
+color: transparent;
+font-weight: 400;
+margin-left: 6px;
+}
+.sub {
+margin-top: 8px;
+font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+font-size: 11.5px;
+letter-spacing: 0.22em;
+text-transform: uppercase;
+color: rgba(165, 243, 252, 0.72);
+}
+@keyframes orbMorphSpin {
+0% { transform: rotate(0deg) scale(0.95); border-radius: 42% 58% 63% 37% / 45% 42% 58% 55%; }
+33% { transform: rotate(120deg) scale(1.06) skewX(4deg); border-radius: 58% 42% 45% 55% / 58% 55% 45% 42%; }
+66% { transform: rotate(240deg) scale(0.92) skewY(-4deg); border-radius: 38% 62% 55% 45% / 42% 58% 42% 58%; }
+100% { transform: rotate(360deg) scale(0.95); border-radius: 42% 58% 63% 37% / 45% 42% 58% 55%; }
+}
+@keyframes orbSpinReverse {
+0% { transform: rotate(360deg) scale(1.08); }
+50% { transform: rotate(180deg) scale(0.88); }
+100% { transform: rotate(0deg) scale(1.08); }
+}
+@keyframes orbErodeReverse {
+0% { opacity: 0.65; filter: blur(6px) hue-rotate(0deg); }
+100% { opacity: 1; filter: blur(9px) hue-rotate(15deg); }
+}
