@@ -32,8 +32,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  filter: url(#liquid-erosion);
   margin-bottom: 18px;
+  /* filter: url(#liquid-erosion); — УДАЛЕНО: вызывает "Invalid image source" */
 }
 
 .nome-ai-orb {
