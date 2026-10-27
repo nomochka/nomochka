@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/nomochka/nomochka/nome-orb.svg" width="100%" alt="Nome Banner" />
+  <img src="https://raw.githubusercontent.com/nomochka/nomochka/main/nome-orb.svg?v=2" width="100%" alt="Nome Banner" />
 </p>
 
 <p align="center">
@@ -19,7 +19,7 @@
 
 ### `$ whoami`
 
-> **nome** — Machine Learning Engineer, AI Researcher &amp; Backend Developer. 
+> **nome** — Machine Learning Engineer, AI Researcher & Backend Developer.
 > Занимаюсь разработкой высоконагруженных сервисов, глубинным обучением, обработкой текстов (NLP), построением надежных пайплайнов и самохостингом инфраструктуры.
 
 ---
@@ -30,9 +30,9 @@
   <img src="https://skillicons.dev/icons?i=py,java,pytorch,spring,fastapi,sklearn,postgres,redis,docker,nginx,linux,git&theme=dark&perline=12" alt="Tech Stack" />
 </p>
 
-| **[ ML &amp; Research ]** | **[ Backend &amp; Core ]** | **[ Infrastructure &amp; Ops ]** |
+| **[ ML & Research ]** | **[ Backend & Core ]** | **[ Infrastructure & Ops ]** |
 | :--- | :--- | :--- |
-| • PyTorch &amp; Hugging Face<br/>• LightGBM &amp; Scikit-Learn<br/>• NLP &amp; Summarization<br/>• NumPy, Pandas, AST | • Python (FastAPI, Asyncio)<br/>• Java (Spring Boot, JVM)<br/>• PostgreSQL &amp; Redis<br/>• Distributed Systems | • Linux &amp; Self-Hosted VPS<br/>• Docker &amp; Compose<br/>• Nginx Reverse Proxy<br/>• Git &amp; CI/CD Actions |
+| • PyTorch & Hugging Face<br/>• LightGBM & Scikit-Learn<br/>• NLP & Summarization<br/>• NumPy, Pandas, AST | • Python (FastAPI, Asyncio)<br/>• Java (Spring Boot, JVM)<br/>• PostgreSQL & Redis<br/>• Distributed Systems | • Linux & Self-Hosted VPS<br/>• Docker & Compose<br/>• Nginx Reverse Proxy<br/>• Git & CI/CD Actions |
 
 ---
 
