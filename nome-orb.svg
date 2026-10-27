@@ -1,12 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 370" width="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 370" width="920" height="370" xmlns:c2pa="http://c2pa.org/manifest"><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTpkMzdlZjQ1NS0yYTIxLTRkMDYtYWFiOS0zN2NiNjExNDg5NGIAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaN0fQL4jV0tP4djYYVVqK5IAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDo5ZWU5ZTgzNy00MGMwLTQ3Y2YtOWYzNy03MTg2NGRmMDYxYjVscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNobTdjrSucAD5vxP17RBaIXwAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggyGjxVGB6SK9eVJdJpGUPuEBXr5cjhinj4ncqCWRkxkukZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaCvDL/xCq5P35Ny6lPmiVyEAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRNAAAAAAAAAAAAAAAAAGRoYXNoWCCJyGf7AQ6byE4139EwzL1HuAALjaD3GAPBh00hg3KVmmRuYW1lbmp1bWJmIG1hbmlmZXN0amV4Y2x1c2lvbnOBomVzdGFydBiWZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOmQzN2VmNDU1LTJhMjEtNGQwNi1hYWI5LTM3Y2I2MTE0ODk0Yi9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjExOTM1NmI5LTYzYWItNDA3ZS1hNWY2LTE1NWU5NTJkYjE0OXJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCDIaPFUYHpIr15Ul0mkZQ+4QFevlyOGKePidyoJZGTGS6JjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggto3F9f6fBcAOAxmcG1H4KaQcbel6BnK48QYn25FZdpKiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggiNVlWhlOZvWokbHsVfBLibrJen/4o+hcpVqRmgoIBLx0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQLvx5t5C0n1hTWEVm7UR6wjH+f57PN5UOLs/VSVYe+aZwSgphJFm566FCEgoGoKddUYQxRuJVz0+nIWlCSJFUxY=</c2pa:manifest></metadata>
   <defs>
-    <!-- Жидкое разъедание краёв -->
     <filter id="liquid-erosion" x="-35%" y="-35%" width="170%" height="170%">
       <feGaussianBlur in="SourceGraphic" stdDeviation="2.2" result="blurred" />
-      <feColorMatrix in="blurred" type="matrix" values="1.35 0    0    0 -0.12
-                0    1.35 0    0 -0.12
-                0    0    1.45 0 -0.10
-                0    0    0    1.6 -0.25" result="contrasted" />
+      <feColorMatrix in="blurred" type="matrix" values="1.35 0 0 0 -0.12 0 1.35 0 0 -0.12 0 0 1.45 0 -0.10 0 0 0 1.6 -0.25" result="contrasted" />
       <feTurbulence type="fractalNoise" baseFrequency="0.032" numOctaves="3" seed="2" result="noise">
         <animate attributeName="baseFrequency" values="0.028;0.042;0.028" dur="5.5s" repeatCount="indefinite" />
       </feTurbulence>
@@ -26,7 +22,6 @@
       </feMerge>
     </filter>
 
-    <!-- Сетка фона -->
     <pattern id="cyber-grid" width="36" height="36" patternUnits="userSpaceOnUse">
       <path d="M 36 0 L 0 0 0 36" fill="none" stroke="#38bdf8" stroke-width="0.6" stroke-opacity="0.12" />
       <circle cx="36" cy="36" r="1" fill="#7dd3fc" fill-opacity="0.25" />
@@ -42,7 +37,6 @@
       <rect width="920" height="370" fill="url(#grid-fade)" />
     </mask>
 
-    <!-- Градиенты шара -->
     <radialGradient id="orb-base" cx="40%" cy="35%" r="65%">
       <stop offset="0%" stop-color="#a5f3fc" />
       <stop offset="30%" stop-color="#22d3ee" />
@@ -68,7 +62,6 @@
       <stop offset="100%" stop-color="#0284c7" stop-opacity="0" />
     </linearGradient>
 
-    <!-- Liquid Glass карточки -->
     <linearGradient id="glass-fill" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#ffffff" stop-opacity="0.08" />
       <stop offset="50%" stop-color="#ffffff" stop-opacity="0.02" />
@@ -96,10 +89,8 @@
     </linearGradient>
   </defs>
 
-  <!-- Фон -->
   <rect width="920" height="370" rx="20" fill="#04080f" />
 
-  <!-- Световые пятна -->
   <circle cx="230" cy="110" r="160" fill="#1c56cd" fill-opacity="0.22" filter="url(#glow-heavy)">
     <animate attributeName="cx" values="230;265;230" dur="12s" repeatCount="indefinite" />
   </circle>
@@ -107,61 +98,38 @@
     <animate attributeName="cx" values="690;655;690" dur="14s" repeatCount="indefinite" />
   </circle>
 
-  <!-- Сетка -->
   <rect width="920" height="370" rx="20" fill="url(#cyber-grid)" mask="url(#grid-mask)" />
 
-  <!-- Вордмарк -->
-  <text x="460" y="32" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" font-weight="700" fill="#7dd3fc" fill-opacity="0.45" letter-spacing="6">
-    NOME SERVICES // ARCHITECTURE
-  </text>
+  <text x="460" y="32" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" font-weight="700" fill="#7dd3fc" fill-opacity="0.45" letter-spacing="6">NOME SERVICES // ARCHITECTURE</text>
 
-  <!-- Боковые карточки (левая колонка) -->
   <g transform="translate(36, 60)">
     <rect width="236" height="66" rx="14" fill="url(#glass-fill)" stroke="url(#glass-stroke)" stroke-width="1" />
     <rect x="14" y="17" width="3" height="32" rx="1.5" fill="#38bdf8" />
-    <text x="28" y="29" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="700" fill="#38bdf8" letter-spacing="1.6">
-      ML & DEEP LEARNING
-    </text>
-    <text x="28" y="47" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" font-weight="600" fill="#e2e8f0">
-      PyTorch · NLP · LightGBM
-    </text>
+    <text x="28" y="29" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="700" fill="#38bdf8" letter-spacing="1.6">ML &amp; DEEP LEARNING</text>
+    <text x="28" y="47" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" font-weight="600" fill="#e2e8f0">PyTorch · NLP · LightGBM</text>
   </g>
 
   <g transform="translate(36, 140)">
     <rect width="236" height="66" rx="14" fill="url(#glass-fill)" stroke="url(#glass-stroke)" stroke-width="1" />
     <rect x="14" y="17" width="3" height="32" rx="1.5" fill="#22d3ee" />
-    <text x="28" y="29" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="700" fill="#67e8f9" letter-spacing="1.6">
-      RESEARCH & METRICS
-    </text>
-    <text x="28" y="47" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" font-weight="600" fill="#e2e8f0">
-      OOF CV · Ensembling · F2
-    </text>
+    <text x="28" y="29" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="700" fill="#67e8f9" letter-spacing="1.6">RESEARCH &amp; METRICS</text>
+    <text x="28" y="47" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" font-weight="600" fill="#e2e8f0">OOF CV · Ensembling · F2</text>
   </g>
 
-  <!-- Боковые карточки (правая колонка) -->
   <g transform="translate(648, 60)">
     <rect width="236" height="66" rx="14" fill="url(#glass-fill)" stroke="url(#glass-stroke)" stroke-width="1" />
     <rect x="14" y="17" width="3" height="32" rx="1.5" fill="#38bdf8" />
-    <text x="28" y="29" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="700" fill="#38bdf8" letter-spacing="1.6">
-      HIGH-LOAD BACKEND
-    </text>
-    <text x="28" y="47" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" font-weight="600" fill="#e2e8f0">
-      Python · Java · Spring Boot
-    </text>
+    <text x="28" y="29" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="700" fill="#38bdf8" letter-spacing="1.6">HIGH-LOAD BACKEND</text>
+    <text x="28" y="47" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" font-weight="600" fill="#e2e8f0">Python · Java · Spring Boot</text>
   </g>
 
   <g transform="translate(648, 140)">
     <rect width="236" height="66" rx="14" fill="url(#glass-fill)" stroke="url(#glass-stroke)" stroke-width="1" />
     <rect x="14" y="17" width="3" height="32" rx="1.5" fill="#22d3ee" />
-    <text x="28" y="29" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="700" fill="#67e8f9" letter-spacing="1.6">
-      INFRASTRUCTURE
-    </text>
-    <text x="28" y="47" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" font-weight="600" fill="#e2e8f0">
-      FastAPI · PostgreSQL · Docker
-    </text>
+    <text x="28" y="29" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="700" fill="#67e8f9" letter-spacing="1.6">INFRASTRUCTURE</text>
+    <text x="28" y="47" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" font-weight="600" fill="#e2e8f0">FastAPI · PostgreSQL · Docker</text>
   </g>
 
-  <!-- Центральный жидкий шар (460, 126) -->
   <g transform="translate(460, 126)" filter="url(#liquid-erosion)">
     <g>
       <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="4.6s" repeatCount="indefinite" />
@@ -181,7 +149,6 @@
     </circle>
   </g>
 
-  <!-- ЭКГ линия -->
   <g transform="translate(330, 210)" filter="url(#glow-line)">
     <path d="M0 18 H85 L95 10 L105 26 L118 3 L130 33 L140 14 L148 18 H260" fill="none" stroke="#1e293b" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
     <path d="M0 18 H85 L95 10 L105 26 L118 3 L130 33 L140 14 L148 18 H260" fill="none" stroke="url(#ecg-grad)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="320" stroke-dashoffset="320">
@@ -189,15 +156,9 @@
     </path>
   </g>
 
-  <!-- Текст: только nome (другой чистый техно-шрифт, без AI) -->
-  <text x="460" y="286" text-anchor="middle" font-family="system-ui, -apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, sans-serif" font-size="46" font-weight="900" fill="url(#title-grad)" letter-spacing="1">
-    nome
-  </text>
+  <text x="460" y="286" text-anchor="middle" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="46" font-weight="900" fill="url(#title-grad)" letter-spacing="1">nome</text>
 
-  <text x="460" y="318" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="600" fill="#7dd3fc" fill-opacity="0.8" letter-spacing="3.5">
-    ML ENGINEER  //  AI RESEARCHER  //  BACKEND DEVELOPER
-  </text>
+  <text x="460" y="318" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="600" fill="#7dd3fc" fill-opacity="0.8" letter-spacing="3.5">ML ENGINEER  //  AI RESEARCHER  //  BACKEND DEVELOPER</text>
 
-  <!-- Внешняя рамка -->
   <rect x="0.75" y="0.75" width="918.5" height="368.5" rx="19.25" fill="none" stroke="url(#glass-stroke)" stroke-width="1.5" />
 </svg>
