@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/nomochka/nomochka/main/nome-orb.svg?v=2" width="100%" alt="Nome Banner" />
+  <img src="https://raw.githubusercontent.com/nomochka/nomochka/main/nome-banner.svg?v=1" width="100%" alt="Nome Banner" />
 </p>
 
 <p align="center">
